@@ -1,0 +1,51 @@
+.items-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-name-container {
+  display: flex;
+  padding: 10px;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.currency-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 8px;
+}
+@media screen and (min-width: 567px) {
+  .logo-name-container {
+    padding: 30px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+  }
+  .currency-name {
+    font-size: 20px;
+  }
+}
+
+.currency-value {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 8px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 567px) {
+  .currency-value {
+    font-size: 20px;
+    margin-right: 50px;
+  }
+}
+.currency-value-container {
+  display: flex;
+}
